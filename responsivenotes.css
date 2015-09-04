@@ -1,0 +1,73 @@
+
+/*Media queries can define start point for fonts.*/
+*{
+	box-sizing: borderbox;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+html {
+	font-size: 24px;
+}
+/*.main-header{
+	font-size: .5em;
+}
+
+1em = 100% font size of parent, can be used for non-font element but will always be respective to font
+
+.sub-header{
+	font-size: 2em;
+}
+
+.on-fleek-header{
+	font-size: 1rem;	
+}*/
+
+/*1rem = 100% font size of ROOT element - default font size*/
+.mycolumncontainer{
+	overflow: hidden;
+}
+
+[class *='col-'] {
+	width: :100%;
+	float: left;
+	min-height: 1px;
+	border: 1px solid black;
+
+}	
+
+.col-1-2{
+		display: inline-block;
+		background-color: red;
+}
+.col-2-3{
+		display: inline-block;
+		background-color: blue;
+}
+.col-1-3{
+		display: inline-block;
+		background-color: pink;
+}
+
+
+
+/*square brackets denote attributes*/
+
+/*anything greater than 768 px, apply these conditions!*/
+@media screen and (min-width:700px){
+.col-1-2{
+	width: 50%;
+}
+.col-1-3{
+	width: 33%;
+}
+.col-2-3{
+	width: 66%;
+}
+}
+
+
+/*MEDIA QUERIES DO NOT ADD SPECIFICITY!  QUERIES MUST GO AT THE BOTTTOM TO TAKE PRECEDENCE*/
+
+/*For Mobile first, add media queries to change things for larger devices*/

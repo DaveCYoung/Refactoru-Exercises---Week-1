@@ -1,0 +1,283 @@
+
+.body{
+	margin: auto;
+	background-color: #7F8C8D;
+	max-width: 700px;	
+	position: relative;
+}
+.blogmain{
+	background-color: #ECF0F1;
+	max-width: 500px;
+	margin-top: 30px;
+	margin-bottom:30px;	
+	display: inline-block;	
+}
+
+/*---- HEADER ----*/
+.head{
+	height: 200px;
+	background-color: #2ECC71;
+	border-bottom: 5px solid #27AE60;
+	color: white;
+}
+
+.headtext{
+	padding-top: 165px;
+	padding-left: 10px;
+	font-size: 26px;
+	font-weight: bold;	
+}
+/*---MAIN MENU ITEMS----*/
+.menu{
+	background-color: #34495E;
+	color: white;
+	text-align: right;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.menu > a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+/*----SIDE MENU ITEMS----*/	
+.sidemenuitem {
+	color: black;
+	font-size: 12px;
+	margin:16px;
+	font-weight: bold;
+
+}
+
+.sidemenuitem > p{
+	color: black;
+	font-size: 12px;
+	margin:8px;
+	color: gray;
+	font-weight: normal;
+}
+
+.sidemenu{
+	background-color: #ECF0F1;
+	max-width: 170px;
+	position: absolute;
+	top: 270px;
+	left: 510px;
+	border-bottom: 5px solid #34495E;	
+}
+/*----ARTICLE FORMATTING----*/
+.articletitle{
+	padding-left:18px;
+	padding-top: 30px;
+	font-weight: bold;
+	font-size: 20px
+}
+.articlesection{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	font-size:14px;
+	font-weight: bold;
+}
+
+.articlesection > p{
+	padding-left: 35px;
+	font-size: 12px;
+	font-weight: normal;
+}
+/*----- TABLE FORMATTING ---*/
+.tablemenu > td{
+	text-align: left;
+	border: 1px solid lightgray;
+	background-color: #BDC3C7;
+	font-weight: bold;
+	padding: 5px 5px 5px 10px;
+}
+
+.tablebutton{
+	background-color: #3498DB;
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+	padding: 5px 17px 8px 17px;
+}
+
+.tableitem > td{
+	text-align: center;
+	border: 1px solid lightgray;
+	padding: 5px;
+	font-size: 12px;
+	font-weight: normal;
+}
+/*
+------- CALLOUT BOX ------*/
+
+.calloutbox{
+	font-family: monospace;
+	background-color: #BDC3C7;
+	padding: 15px;
+	font-size: 12px;
+}
+
+/*---- IMAGE ----*/
+.imagecontainer{
+	text-align: center;
+}
+.image{
+	display:inline-block;
+	max-width: 90%;
+	padding:10px;
+}
+/*---- LIST ----*/
+.listbullet{
+	font-weight: bold;	
+	font-size: 12px;
+}
+.list{
+	font-weight: normal;
+	font-size: 12px;	
+}
+.list > li{
+	padding-top: 10px
+}
+/*---AUTHOR TAG----*/
+.authortag{
+	color:gray;
+	font-size: 12px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+}
+/*----COMMENTS FORMATTING----*/
+/*<div class = "comments">
+		<span class = "commentsheader"> Comments</span>
+		<div class = "userinfo"> 
+		</div>
+		<div class = "commentfield">
+		</div>
+		<div class = "previouscomments">*/
+.comments{
+
+}
+.commentsheader{
+	padding-left:18px;
+	padding-top: 30px;
+	font-weight: bold;
+	font-size: 20px
+
+}
+.userinfo{
+	padding: 30px;
+	border-top: 1px solid gray;
+
+}
+.commentfield{	
+	text-align: center;
+	padding: 30px;
+	border-top: 1px solid gray;
+}
+.previouscomments{
+}
+.fieldbox{
+	display: block;
+	text-align: right;
+	padding:5px;
+	font-size: 12px;
+}
+.label{
+	display: inline-block;
+}
+.field{
+	display: inline-block;
+	width: 300px;}
+
+.userinfoheader{
+	position: relative;
+	top:13px;	
+	left:20px;
+	background-color: #ECF0F1;	
+	display: inline-block;	
+	color: gray;
+	padding:5px;
+	font-size: 12px;	
+}
+.commentfield2{
+	width: 95%;
+	height: 200px;
+	
+}
+
+.commentheader{
+	position: relative;
+	top:13px;
+	left:20px;
+	background-color: #ECF0F1;	
+	display: inline-block;	
+	color: gray;
+	padding:5px;
+	font-size: 12px;
+}
+.commentbutton{
+	background-color: #C0392B;
+	color: white;
+	width: 95%;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.commentbutton2{
+	text-align: center;
+	padding:0px 30px 30px 30px;
+}
+/*-----USER COMMENTS --------*/
+/*<div class = "usercomment"> 
+					<img class = "userimage" src="http://gravatar.com/avatar/0?d=identicon">
+					<p class = "commentusername"> User 1</p>
+					<p class = "commentdate">13 August, 2015</p>
+					<p class = "usercommentcontent">lor sit amet, phasellus facilisi tempor, sit sollicitudin nam aut. Lorem wisi. Sem nibh nulla tortor, vel ullamcorper elit, porttitor aliquam ut urna sed. Tempus ut bibendum gravida vivamus, nullam donec magnis lorem aenean luctus,*/
+
+.previouscomments{
+	padding: 30px 30px 0px 30px;
+}
+.usercommentcontent{
+	clear:both;
+	font-size: 12px;
+}
+.userimage{
+	float: left;
+	margin: 0px 15px 15px 0px;
+}
+
+.commentusername{
+	padding-left: 30px;
+	padding-top:15px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.commentdate{
+	color:gray;
+	font-style: italic;
+	font-size: 12px;
+	padding-top: 5px;
+}
+
+.usercommentresponse{
+	border-left: 1px solid lightgray;
+	padding-left: 30px;
+	margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+

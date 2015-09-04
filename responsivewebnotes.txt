@@ -1,0 +1,22 @@
+Responsive web design
+
+* Wide range of devices, sizes, and capabilities
+* Network SPeed / Performance
+* Data limits
+* Pixel Density 
+
+mysite.com
+m.mysite.com - NO
+
+
+
+--- Mobile First ----
+
+- Assume first look will be on a mobile device
+- Scale up not down
+
+Progressive enhancement vs Graceful Degredation
+
+*PE* - Design something on mobile that scales up well  <---- BETTER WAY TO GO
+GD - Design for Desktop that doesn't degrade too poorly
+
